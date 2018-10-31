@@ -1,0 +1,25 @@
+{
+  "name": "textizer",
+  "version": "0.0.1",
+  "description": "Convert Code, Text and so on strings convert to Text that is recognized by javascript, typescript, c# code",
+  "main": "lib.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadfishDT/codeTextizer.git"
+  },
+  "keywords": [
+    "code",
+    "string",
+    "convert"
+  ],
+  "author": "MadfishDT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MadfishDT/codeTextizer/issues"
+  },
+  "homepage": "https://github.com/MadfishDT/codeTextizer#readme"
+}
