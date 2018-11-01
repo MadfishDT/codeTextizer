@@ -5,7 +5,7 @@ convert text to string is recognized in codes
 **install**
 -
 ```
-npm inatall codeTextizer
+npm inatall code-textizer
 ```
 
 **support features:**
@@ -48,9 +48,12 @@ npm inatall codeTextizer
 * quote: use single quote or double quote, default single quote
 
 **APIS**
-
-
 -
+* codeTextizer Support API
+    * convert({valuableName}, {convertBuffer}, {isSingleQuote})
+        * ValuableName: optional, if you want code string like 'var code = '\n const fs=require('fs') ......', 'var code =' is attached
+        * converBuffer: code strings
+        * isSingleQuite: ture use ', false use "
 ```
 const convert = require('codeTextizer');
 let codeText = convert('codes', fs.readFileSync('test.js'), true );
